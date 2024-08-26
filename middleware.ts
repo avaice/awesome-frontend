@@ -1,11 +1,10 @@
 import { next } from '@vercel/edge'
 
 export const config = {
-  matches: '/',
+  matcher: ['/((?!api|node_modules|@vite|src|favicon.ico).*)'],
 }
 
 export default function middleware(req: Request) {
-  // ここにサーバーサイドの挙動を記述できます
-
+  console.log(req.url)
   return next()
 }
