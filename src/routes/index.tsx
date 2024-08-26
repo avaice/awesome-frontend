@@ -8,7 +8,7 @@ export const Index = () => {
         <title>Awesome Frontend</title>
       </Helmet>
       <div>
-        <h1 className={'text-3xl font-bold'}>Index</h1>
+        <h1 className={'font-bold text-3xl'}>Index</h1>
         <p>Home page</p>
         <Link href="/demo">Demo</Link>
       </div>

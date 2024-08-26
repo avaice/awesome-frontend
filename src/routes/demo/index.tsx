@@ -9,7 +9,7 @@ export const Demo = () => {
         <title>Demo</title>
       </Helmet>
       <div>
-        <h1 className={'text-3xl font-bold'}>Demo</h1>
+        <h1 className={'font-bold text-3xl '}>Demo</h1>
         <p>Count: {count}</p>
         <button type="button" onClick={() => setCount(count + 1)}>
           Increment
