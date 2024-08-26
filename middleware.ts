@@ -5,6 +5,5 @@ export const config = {
 }
 
 export default function middleware(req: Request) {
-  console.log(req.url)
   return next()
 }
