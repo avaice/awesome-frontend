@@ -7,6 +7,8 @@ Vite + Preact + Tailwind + TypeScript
 - サーバーサイドの処理に対応
 
 が特徴のFrontend Template
+
+
 Vercelに依存しています
 
 # Usage
