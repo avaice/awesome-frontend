@@ -1,5 +1,5 @@
 import { HelmetProvider } from 'react-helmet-async'
-import { Route, Switch } from 'wouter'
+import { Route, Switch } from 'wouter-preact'
 import { Index } from './routes'
 import { NotFound } from './routes/NotFound'
 import { Demo } from './routes/demo'

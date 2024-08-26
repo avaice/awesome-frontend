@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async'
-import { Link } from 'wouter'
+import { Link } from 'wouter-preact'
 
 export const Index = () => {
   return (
