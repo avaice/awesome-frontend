@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "preact": "^10.23.1"
+    "preact": "^10.23.1",
+    "react-helmet-async": "^2.0.5",
+    "wouter": "^3.3.4"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
