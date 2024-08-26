@@ -1,3 +1,4 @@
+import { Suspense } from 'preact/compat'
 import { HelmetProvider } from 'react-helmet-async'
 import { Route, Switch } from 'wouter-preact'
 import { lazyImport } from './lib/lazyImport'
@@ -10,11 +11,13 @@ export function App() {
   return (
     <>
       <HelmetProvider>
-        <Switch>
-          <Route path="/" component={Index} />
-          <Route path="/demo" component={Demo} />
-          <Route component={NotFound} />
-        </Switch>
+        <Suspense fallback={null}>
+          <Switch>
+            <Route path="/" component={Index} />
+            <Route path="/demo" component={Demo} />
+            <Route component={NotFound} />
+          </Switch>
+        </Suspense>
       </HelmetProvider>
     </>
   )
