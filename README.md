@@ -1,6 +1,6 @@
 # Awesome Frontend
 
-Vite + Preact + Tailwind + TypeScript
+Vite + Preact + Tailwind + TypeScript + Biome(Linter + Formatter)
 
 - 軽量動作
 - 高速な開発環境
