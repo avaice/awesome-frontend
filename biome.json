@@ -6,7 +6,10 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "correctness": {
+        "noUnusedImports": "error"
+      }
     }
   },
   "formatter": {
@@ -17,9 +20,7 @@
     "formatter": {
       "enabled": true,
       "semicolons": "asNeeded",
-      "quoteStyle": "single",
-      "indentStyle": "space",
-      "indentWidth": 2
+      "quoteStyle": "single"
     }
   }
 }
