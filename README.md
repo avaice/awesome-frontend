@@ -11,7 +11,7 @@ Vite + Preact + Tailwind + TypeScript + Biome(Linter + Formatter)
 
 Vercelに依存しています
 
-# Usage
+## Usage
 1. "Use this template"する
 2. `bun i`
 3. Vercelにデプロイする
